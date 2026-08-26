@@ -1,0 +1,14 @@
+{
+  "name": "yunhuitong-lite",
+  "version": "1.0.0",
+  "description": "云会通网页轻量版 - 基于 WebRTC 的语音会议、屏幕共享、文字聊天",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "ws": "^8.14.2"
+  }
+}

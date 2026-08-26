@@ -1,0 +1,19 @@
+{
+  "name": "yunhuitong-lite",
+  "description": "云会通网页轻量版 - WebRTC 语音会议",
+  "repository": "https://github.com/your-username/yunhuitong-lite",
+  "logo": "",
+  "keywords": ["webrtc", "meeting", "voice", "screen-share"],
+  "stack": "node",
+  "env": {
+    "PORT": {
+      "description": "服务端口",
+      "value": "3000"
+    }
+  },
+  "build": {
+    "provider": "railway",
+    "buildCommand": "npm install",
+    "startCommand": "npm start"
+  }
+}

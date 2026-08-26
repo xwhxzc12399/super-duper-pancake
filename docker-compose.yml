@@ -1,0 +1,11 @@
+version: '3'
+
+services:
+  yunhuitong:
+    build: .
+    container_name: yunhuitong-lite
+    restart: unless-stopped
+    ports:
+      - "3000:3000"
+    environment:
+      - PORT=3000

@@ -1,0 +1,12 @@
+services:
+  - type: web
+    name: yunhuitong-lite
+    runtime: node
+    repo: https://github.com/your-username/yunhuitong-lite.git
+    branch: main
+    plan: free
+    buildCommand: npm install
+    startCommand: npm start
+    envVars:
+      - key: PORT
+        value: 3000
